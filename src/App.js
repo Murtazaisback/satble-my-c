@@ -32,9 +32,7 @@ function App() {
   };
   return (
     <ClerkProvider publishableKey="pk_test_c2VjdXJlLXNwb25nZS03Mi5jbGVyay5hY2NvdW50cy5kZXYk">
-       {isPopupVisible && (
-        <TermsPopup onAccept={handleAccept} onDecline={handleDecline} />
-      )}
+       
       <div className={isPopupVisible ? 'blur' : ''}>
         <BrowserRouter>
           <Routes>

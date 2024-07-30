@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import { img10, img11, img12, img13, img14, img15, img16, img17, img5, img7, img8, img9 } from '../../Assets';
+import { demoimg1, demoimg3, demoimg4, demoimg5, demoimg6, demoimg7, demoimg8, demoimg9, img10, img11, img12, img13, img14, img15, img16, img17, img5, img7, img8, img9 } from '../../Assets';
 import WW1 from "../../Assets/prompthero-prompt-1ad017fe863.webp"
 import WW2 from "../../Assets/prompthero-prompt-85aa11db8db.webp"
 import WW3 from "../../Assets/prompthero-prompt-cd74ea1e7da.webp"
@@ -34,43 +34,31 @@ const MinGallery = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-            <img src={WW1} alt="" />
+            <img src={demoimg1} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-            <img src={WW2} alt="" />
+            <img src={demoimg3} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-            <img src={WW3} alt="" />
+            <img src={demoimg3} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-            <img src={WW4} alt="" />
+            <img src={demoimg4} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-            <img src={WW5} alt="" />
+            <img src={demoimg6} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-            <img src={WW6} alt="" />
+            <img src={demoimg9} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-            <img src={WW7} alt="" />
+            <img src={demoimg3} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-            <img src={WW8} alt="" />
+            <img src={demoimg4} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-            <img src={WW9} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-            <img src={WW10} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-            <img src={WW11} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-            <img src={WW12} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-            <img src={WW13} alt="" />
+            <img src={demoimg5} alt="" />
         </SwiperSlide>
       </Swiper>
     </div>

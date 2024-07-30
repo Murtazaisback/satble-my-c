@@ -45,7 +45,7 @@ const WelcomeToAi = ({title, spanhead, highlighted, aboutContent, AboutList1,Abo
               <img src={WW12} alt="" className="welcome_img_bottom" />
             </div>
             <div className="welcome_img_row2">
-              <img src={WW10} alt="" className="welcome_img_top_right" />
+              <img src={img13} alt="" className="welcome_img_top_right" />
               {/* <img src={demoimg9} alt=""className='welcome_img_bottom_right'  /> */}
               <div className="welcome_img_bottom_right">
                 <p>Online AI Image Generator</p>

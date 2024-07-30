@@ -14,7 +14,7 @@ const GalleryGrid = () => {
             <figcaption>
               <div className="images_bio">
                 <div className="img_porfile">
-                  <img src={item.profileImg} alt="" className="img_bio" />
+                  <img src="" alt="" className="img_bio" />
                   <p>{item.name}</p>
                 </div>
                 <div className="img_tags">

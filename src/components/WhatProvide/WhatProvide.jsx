@@ -1,6 +1,6 @@
 import React from "react";
 import Headings from "../roots/Headings";
-import { demoimg10, img9 } from "../../Assets";
+import { demoimg10, img13, img9 } from "../../Assets";
 import { motion } from 'framer-motion';
 import useAnimateOnView from "../animations/motions"
 import WW9 from "../../Assets/prompthero-prompt-f572c9be3fa.webp"
@@ -63,7 +63,7 @@ const WhatProvide = () => {
             </div>
             <div className="WhatProvide_img">
               <div className="WhatProvide_img_box">
-                <img src={WW9} alt="" />
+                <img src={img13} alt="" />
               </div>
             </div>
           </div>

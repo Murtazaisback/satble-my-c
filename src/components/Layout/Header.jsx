@@ -9,7 +9,7 @@ import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import { FaArrowRight } from "react-icons/fa6";
 import { IoBrushOutline, IoSettingsOutline } from "react-icons/io5";
-import { img1, img2, img3, img4, img5, img6, img7, img8 } from "../../Assets";
+import { demoimg1, demoimg2, demoimg3, demoimg4, demoimg5, img1, img11, img12, img13, img14, img2, img3, img4, img5, img6, img7, img8 } from "../../Assets";
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import Navbar from './Navbar';
@@ -90,14 +90,14 @@ const Header = () => {
         modules={[Autoplay,]}
         className="mySwiper"
       >
-        <SwiperSlide><img src={WW1} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={WW2} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={WW3} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={WW4} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={WW5} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={WW6} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={WW7} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={WW8} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={img2} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={img4} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={img5} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={img8} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={img11} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={img12} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={img13} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={img14} alt="" /></SwiperSlide>
       </Swiper>
             <Swiper
             slidesPerView={2}
@@ -113,10 +113,10 @@ const Header = () => {
         modules={[Autoplay,]}
         className="mySwiper"
       >
-        <SwiperSlide><img src={WW9} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={WW10} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={WW11} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={WW12} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={img11} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={img12} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={img13} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={img14} alt="" /></SwiperSlide>
       </Swiper>
             </div>
             </div>

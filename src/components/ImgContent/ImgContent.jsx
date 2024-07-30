@@ -20,7 +20,7 @@ const ImgContent = () => {
         <img src={item.mainImg} alt="" className="post_img_p" />
         <div className="images_bio_page">
           <div className="img_porfile">
-            <img src={item.profileImg} alt="" className="img_bio" />
+            <img src="" alt="" className="img_bio" />
             <p>{item.name}</p>
           </div>
           <div className="img_info_tags">

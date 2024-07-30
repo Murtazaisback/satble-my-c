@@ -1,6 +1,6 @@
 import React from "react";
 import Headings from "../roots/Headings";
-import { demoimg1 ,demoimg2,demoimg3, demoimg4, img10, img5, img6,img7,img8,img9} from "../../Assets";
+import { demoimg1 ,demoimg10,demoimg2,demoimg3, demoimg4, img10, img5, img6,img7,img8,img9} from "../../Assets";
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import useAnimateOnView from "../animations/motions"
@@ -40,11 +40,11 @@ const HowGenerate = () => {
         <div className="howit_main">
             <div className="howit_imgs">
                 <div className="howit_imgs_rows">
-                    <img src={WW5} alt="" />
-                    <img src={WW6} alt="" />
-                    <img src={WW7} alt="" />
+                    <img src={demoimg2} alt="" />
+                    <img src={demoimg1} alt="" />
+                    <img src={demoimg3} alt="" />
                 </div>
-                <img src={WW10} alt=""className="howit_imgs_bottom" />
+                <img src={demoimg4} alt=""className="howit_imgs_bottom" />
             </div>
             <div className="howit_content">
               <div className="lists_boxs">

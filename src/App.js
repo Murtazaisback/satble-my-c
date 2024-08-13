@@ -33,7 +33,7 @@ function App() {
   return (
     <ClerkProvider publishableKey="pk_test_c2VjdXJlLXNwb25nZS03Mi5jbGVyay5hY2NvdW50cy5kZXYk">
        
-      <div className={isPopupVisible ? 'blur' : ''}>
+      {/* <div className={isPopupVisible ? 'blur' : ''}> */}
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<HomePage />} />
@@ -67,7 +67,7 @@ function App() {
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </BrowserRouter>
-      </div>
+      {/* </div> */}
     </ClerkProvider>
     
   );
